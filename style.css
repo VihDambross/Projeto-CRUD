@@ -18,6 +18,22 @@
     text-align: center;
     width: 25%;
 }
+.logo-tesla{ 
+    margin: 12px auto auto auto;
+    padding: right 50px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.rodapé{
+	background: #000000;
+    color: #ffffff;
+	padding: 100px 0;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    margin: auto auto auto auto;
+}
 /*gustavo*/
 
 /*laura*/
