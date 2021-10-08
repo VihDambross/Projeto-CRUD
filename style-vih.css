@@ -25,19 +25,23 @@
     height: 100px;
     align-items: center;
 }
-.rodapé{
-	background: #000000;
-    color: #ffffff;
-	padding: 100px 0;
-    width: auto;
-    height: 100px;
+
+.titulo-principal{
+    color: white;
+    background-color: #2B2835;
+    font-size: 40px;
     text-align: center;
-    margin: auto auto auto auto;
+    padding: 15px;
 }
-/*gustavo*/
 
-/*laura*/
+.lista-contatos{
+    
+    background-image: url(.//Imagens/img.contatos.jpg);
+    background-size: cover;
+    padding: 70px 80px 100px 80px;
+    font-size: 22px;
+}
 
-/*liu*/
-
-/*eric e bruno*/
+.email-contatos{
+    padding: 0 0 20px 0;
+}
