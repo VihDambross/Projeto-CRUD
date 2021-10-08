@@ -1,0 +1,95 @@
+/*liu*//*participantes*/
+.caixa-participantes{
+    background: rgb(202, 202, 202);
+    text-align: center;
+    width: 1250px;
+    height: 380px;
+    border: solid #ffffff;
+    border-width: 2px;
+    border-radius: 1px;
+    margin: 20px auto 20px auto;
+}
+.Vitória{
+    display:inline-block;
+    width: 160px;
+    height: 163px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;    
+    border: solid #ffffff
+}
+.nome-vitoria{
+    
+}
+.Liu{
+    display:inline-block;
+    width: 160px;
+    height: 163px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;
+    border: solid #ffffff
+}
+.Laura{
+    display:inline-block;
+    width: 163px;
+    height: 160px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;
+    border: solid #ffffff
+}
+.Bruno{
+    display:inline-block;
+    width: 163px;
+    height: 160px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;
+    border: solid #ffffff
+}
+.Eric{
+    display:inline-block;
+    width: 160px;
+    height: 163px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;
+    border: solid #ffffff
+}
+.Gustavo{
+    display:inline-block;
+    width: 160px;
+    height: 163px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 90px;
+    border: solid #ffffff
+}
+.Vitória:hover, .Laura:hover, .Liu:hover, .Bruno:hover, .Eric:hover, .Gustavo:hover{
+    border: solid #2B2835;
+    transition: 0.2s;
+    cursor: pointer;
+    transition: 380ms;
+    transform: scale(1.1)
+}
+.participantes{
+    display: inline-block;
+    font-size: 23px;
+    color: #000000;
+    padding: auto;
+}
+/*rodapé*/
+.logo-tesla{ 
+    margin: 12px auto auto auto;
+    padding: right 50px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.rodapé{
+	background: #000000;
+    color: #ffffff;
+	padding: 100px 0px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
