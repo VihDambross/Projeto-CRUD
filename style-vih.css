@@ -19,10 +19,12 @@
     width: 25%;
 }
 
-.logo-home{
+.logo-parte1{
+    width: 200px;
     position: relative;
     left: 20px;
 }
+
 
 .titulo-principal{
     color: white;
