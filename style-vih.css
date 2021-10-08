@@ -1,11 +1,11 @@
-/*vih*/
+/*vitoria*/
 .header{
     background-image: url(.//Imagens/img.home.jpg);
     background-size: cover;
 }
 
 .menu-home{
-    padding: 80px 0 0 80px;
+    padding: 80px;
 }
 
 .menu-itens{
@@ -14,14 +14,16 @@
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px;
+    padding: 40px 15px 40px 15px;
     text-align: center;
     width: 25%;
 }
-
-.logo-home{
-    position: relative;
-    left: 20px;
+.logo-tesla{ 
+    margin: 12px auto auto auto;
+    padding: right 50px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
 }
 
 .titulo-principal{
