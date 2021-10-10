@@ -2,28 +2,32 @@
 .header{
     background-image: url(.//Imagens/img.home.jpg);
     background-size: cover;
+    width: 100%;
 }
-
+.logo-tesla-home{
+    padding: 0 0 0 50px;
+    width: 20%;
+}
 .menu-home{
-    padding: 80px 0 0 80px;
+    padding: 50px;
 }
 
-.menu-itens{
+.menu-itens {
     background-color: #2B2835;
-    color:white;
-    font-size: 22px;
+    background-size: cover;
     text-transform: uppercase;
-    text-decoration: none;
+    margin: 0 0 10px 0;
     padding: 15px;
     text-align: center;
-    width: 25%;
+    width: 300px;
+    font-size: clamp(4px, 5px + 1vw, 22px);
 }
 
-.logo-parte1{
-    width: 200px;
-    position: relative;
-    left: 20px;
+.menu-itens a{
+    color:white;
+    text-decoration: none;
 }
+
 
 
 .titulo-principal{
