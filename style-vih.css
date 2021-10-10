@@ -49,3 +49,8 @@
 .email-contatos{
     padding: 0 0 20px 0;
 }
+
+.email-contatos a{
+    color: black;
+    text-decoration: none;
+}
