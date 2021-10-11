@@ -7,24 +7,58 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style-vih.css">
         <link rel="stylesheet" href="participantes-liu.css">
-        <link rel="stylesheet" href="trabalho.js">
         <link rel="shortcut icon" href="Imagens/icone.tesla.png" type="image/x-icon">
         <link rel="stylesheet" href="modelos.css">
-        <script src="modelos.js" defer></script>
+        <link rel="stylesheet" href="configuracoes.css">
+       
     </head>
     <body>
         <header class="header">
                 <img src=".//Imagens/img.logo.png" class="logo-tesla-home">
             <nav>
                 <ul class="menu-home">
-                    <li class="menu-itens"><a href="#home">Sobre</a></li>
-                    <li class="menu-itens"><a href="">Objetivos</a></li>
-                    <li class="menu-itens"><a>Contatos</a></li>
-                    <li class="menu-itens"><a>Participantes</a></li>
+                    <li id="sobre" class="menu-itens"><a id="link1" href="#home">Sobre</a></li>
+                    <li id="objetivo" class="menu-itens"><a id="link2" href="">Objetivos</a></li>
+                    <li id="contato" class="menu-itens"><a id="link3" >Contatos</a></li>
+                    <li id="participantes" class="menu-itens"><a id="link4">Participantes</a></li>
                     <li class="menu-itens"><a>Configurações</a></li>
                 </ul>
             </nav>
         </header>
+
+        <!--Configurações-->
+        <div class="configuracoes-container">
+            <form class="painel-configuracoes">
+                <h1 class="configuracoes-lista-titulo">Botoes do menu</h1>
+                <div class="lista-configurar">
+                    <label for="input-lista1">Botao sobre</label>
+                    <input id="input-lista1" type="text" placeholder="Botao Sobre">
+                    <button id="botao-confirmar">Confirmar</button>
+                    <button id="botao-cancela">Desfazer</button>
+                </div>
+                <div class="lista-configurar">
+                    <label for="input-lista2">Botao objetivo</label>
+                    <input id="input-lista2" type="text" placeholder="Ecolha um objetivo">
+                    <button id="botao-confirmar2">Confirmar</button>
+                    <button id="botao-cancela2">Desfazer</button>
+                </div>
+                <div class="lista-configurar">
+                    <label for="input-lista3">Botao contatos</label>
+                    <input id="input-lista3" type="text" placeholder="Altere o contato">
+                    <button id="botao-confirmar3">Confirmar</button>
+                    <button id="botao-cancela3">Desfazer</button>
+                </div>
+                <div class="lista-configurar">
+                    <label for="input-lista4">Botao participantes</label>
+                    <input id="input-lista4" type="text" placeholder="botao participantes">
+                    <button id="botao-confirmar4">Confirmar</button>
+                    <button id="botao-cancela4">Desfazer</button>
+                </div>
+            </form>
+        </div>
+
+
+
         <main>
             <section class="home">
                 <div class="modelos">
@@ -130,5 +164,8 @@
         <footer class="rodapé">
             <img src="Imagens/logo-tesla-footer.png" class="logo-tesla" alt="Logo da TESLA">
         </footer>
+
+        <script src="lista.js"></script>
+        <script src="modelos.js" defer></script>
     </body>
 </html>
