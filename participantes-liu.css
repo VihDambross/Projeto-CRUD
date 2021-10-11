@@ -1,12 +1,11 @@
 /*liu*//*participantes*/
 .caixa-participantes{
-    
     text-align: center;
     width: 1250px;
     height: 380px;
     border-width: 2px;
     border-radius: 1px;
-    margin: 20px auto 20px auto;
+    margin: 20px auto 88px auto;
 }
 .Vitória{
     display:inline-block;
@@ -77,6 +76,22 @@
     font-size: 23px;
     color: #000000;
     padding: auto;
+}
+.titulo{
+    font-size: 45px;
+    color: #000000;
+    text-align: center;
+    height: 0px;
+    margin: 25px auto 70px auto;
+}
+nav a {
+	color: #000000;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover {
+    color: #ac752e;
+	text-decoration: underline;
 }
 /*rodapé*/
 .logo-tesla{ 
