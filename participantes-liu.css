@@ -76,7 +76,8 @@
     padding: auto;
 }
 .titulo{
-    font-size: 45px;
+    font-weight: bold;
+    font-size: 40px;
     color: #000000;
     text-align: center;
     height: 0px;
@@ -111,4 +112,8 @@ nav a:hover {
     height: auto;
     text-align: center;
     margin: auto auto auto auto;
+}
+
+.texto-rodape{
+    padding: 50px 0 0 0;
 }
