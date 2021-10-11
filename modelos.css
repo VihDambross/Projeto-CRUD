@@ -1,7 +1,7 @@
 .modelos{
     width: 100%;    
     display: flex;
-    margin: 100px 0;
+    margin: 5em 0;
     min-height: 100vh;
 
 }
@@ -10,7 +10,7 @@
     overflow: hidden;
     height: 400px;
     width: 600px;
-    margin: 0 90px;
+    margin: 0 6em;
 }
 .container{
     display: flex;
@@ -26,9 +26,10 @@ image{
 }
 .modelos-text h3{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
+
 }
 .modelos-text p{
-    font-size: 22px;    
+    font-size: 40px;    
     line-height: 1.2em;
 }
