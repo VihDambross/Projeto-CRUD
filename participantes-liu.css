@@ -5,7 +5,7 @@
     height: 380px;
     border-width: 2px;
     border-radius: 1px;
-    margin: 20px auto 88px auto;
+    margin: 35px auto 70px auto;
 }
 .Vitória{
     display:inline-block;
@@ -14,9 +14,6 @@
     margin: 20px 10px 20px 20px;
     border-radius: 90px;    
     border: solid #ffffff
-}
-.nome-vitoria{
-    
 }
 .Liu{
     display:inline-block;
@@ -72,6 +69,7 @@
 }
 
 .participantes{
+    text-decoration: none;
     display: inline-block;
     font-size: 23px;
     color: #000000;
@@ -85,13 +83,16 @@
     margin: 25px auto 70px auto;
 }
 nav a {
+    text-decoration: none;
 	color: #000000;
 	font-size: 22px;
-	text-decoration: none;
 }
 nav a:hover {
     color: #ac752e;
 	text-decoration: underline;
+}
+.nomes{
+    font-weight: bold;
 }
 /*rodapé*/
 .logo-tesla{ 
