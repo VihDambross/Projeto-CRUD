@@ -73,12 +73,37 @@
                     </div>
                 </div>
                 <hr>
+                <!--Endereços-->
                 <div class="painel-contatos">
                     <h1>Altere os endereços</h1>
                     <label for="inputContatos">Altere o titulo do endereço</label>
                     <input id="inputContatos" placeholder="titulo para contatos">
                     <button id="contatosConfirmar">Confirmar</button>
                     <button id="contatosDesfazer">Desfazer</button>
+
+                    <!--Endereõs Titulos-->
+
+
+                    <!--Endereços emails-->
+                    <label for="endereço1">Altere o primeiro endereço</label>
+                    <input id="endereço1" placeholder="endereço..."> 
+                    <button id="contatosConfirmar1">Confirmar</button>
+                    <button id="contatosDesfazer1">Desfazer</button>
+
+                    <label for="endereço2">Altere o segundo endereço</label>
+                    <input id="endereço2" placeholder="endereço2..."> 
+                    <button id="contatosConfirmar2">Confirmar</button>
+                    <button id="contatosDesfazer2">Desfazer</button>
+
+                    <label for="endereço3">Altere o terceiro endereço</label>
+                    <input id="endereço3" placeholder="endereço3..."> 
+                    <button id="contatosConfirmar3">Confirmar</button>
+                    <button id="contatosDesfazer3">Desfazer</button>
+
+                    <label for="endereço4">Altere o quarto endereço</label>
+                    <input id="endereço4" placeholder="endereço4..."> 
+                    <button id="contatosConfirmar4">Confirmar</button>
+                    <button id="contatosDesfazer4">Desfazer</button>
                 </div>
             </form>
         </div>
@@ -107,13 +132,13 @@
                 <h1 class="titulo-principal">Contatos e endereço</h1>
                 <ul class="lista-contatos">
                     <li class="titulo-contatos">América do Norte</a></li>
-                    <li class="email-contatos"><a href="mailto:press@tesla.com">Press@tesla.com</a></li>
+                    <li class="email-contatos"><a id="email1" href="mailto:press@tesla.com">Press@tesla.com</a></li>
                     <li class="titulo-contatos">Europa e Oriente Médio</li>
-                    <li class="email-contatos"><a href="mailto:press@tesla.com">EUPress@tesla.com</a></li>
+                    <li class="email-contatos"><a id="email2" href="mailto:press@tesla.com">EUPress@tesla.com</a></li>
                     <li class="titulo-contatos">Austrália e ásia</li>
-                    <li class="email-contatos"><a href="mailto:press@tesla.com">APACPress@tesla.com</a></li>
+                    <li class="email-contatos"><a id="email3" href="mailto:press@tesla.com">APACPress@tesla.com</a></li>
                     <li class="titulo-contatos">China</li>
-                    <li class="email-contatos"><a href="mailto:press@tesla.com">China-Press@tesla.com</a></li>
+                    <li class="email-contatos"><a id="email4" href="mailto:press@tesla.com">China-Press@tesla.com</a></li>
                 </ul>
             </div>
         </main>
@@ -191,6 +216,7 @@
             <img src="Imagens/logo-tesla-footer.png" class="logo-tesla" alt="Logo da TESLA">
         </footer>
 
+        <script src="contatos.js"></script>
         <script src="resumo.js"></script>
         <script src="lista.js"></script>
         <script src="modelos.js" defer></script>
