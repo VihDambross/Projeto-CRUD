@@ -26,7 +26,8 @@
         <!--Configurações-->
         <div class="configuracoes-container">
             <form class="painel-configuracoes">
-                <h1 class="configuracoes-lista-titulo">Altere os botões do menu</h1>
+                <!--MENU PRINCIPAL-->
+                <h1 class="configuracoes-lista-titulo">MENU</h1>
                 <div class="lista-configurar">
                     <label for="input-lista1">Botão sobre</label>
                     <input id="input-lista1" type="text" placeholder="Botao Sobre">
@@ -55,7 +56,7 @@
                 <div class="painelDoResumo">
                     <!--TITULO/SOBRE-->
                     <div class="painel-resumo">
-                        <h1 class="TituloSobre">Altere o titulo e o resumo do sobre:</h1>
+                        <h1 class="TituloSobre">SOBRE:</h1>
                         <label for="inputSobre">Altere o titulo do sobre</label>
                         <input id="inputSobre" type="text" placeholder="Digite um titulo">
                         <button id="SobreConfirmar">Confirmar</button>
@@ -70,39 +71,55 @@
                     </div>
                 </div>
                 <hr>
-                <!--Endereços-->
-                <div class="painel-contatos">
-                    <h1>Altere os endereços</h1>
-                    <label for="inputContatos">Altere o titulo do endereço</label>
-                    <input id="inputContatos" placeholder="titulo para contatos">
-                    <button id="contatosConfirmar">Confirmar</button>
-                    <button id="contatosDesfazer">Desfazer</button>
+                    <!--PARTICIPANTES-->
+                    <div class="painel-participantes"> 
+                        <h1 class="participantes-titulo">Participantes</h1>
+                        <!--vitória-->
+                        <div class="usuarios">
+                            <label for="participanteVih">Altere o primeiro participante</label>
+                            <input id="participanteVih"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar1">Confirmar</button>
+                            <button id="participanteCancelar1">Desfazer</button>
+                        </div>
+                        <!--Liu-->
+                        <div class="usuarios">
+                            <label for="participanteLiu">Altere o segundo participante</label>
+                            <input id="participanteLiu"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar2">Confirmar</button>
+                            <button id="participanteCancelar2">Desfazer</button>
+                        </div>
+                        <!--Laura-->
+                        <div class="usuarios">
+                            <label for="participanteLaura">Altere o terceiro participante</label>
+                            <input id="participanteLaura"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar3">Confirmar</button>
+                            <button id="participanteCancelar3">Desfazer</button>
+                        </div>
+                        <!--Bruno-->
+                        <div class="usuarios">
+                            <label for="participanteBruno">Altere o quarto participante</label>
+                            <input id="participanteBruno"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar4">Confirmar</button>
+                            <button id="participanteCancelar4">Desfazer</button>
+                        </div>
+                        <!--Eric-->
+                        <div class="usuarios">
+                            <label for="participanteEric">Altere o quinto participante</label>
+                            <input id="participanteEric"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar5">Confirmar</button>
+                            <button id="participanteCancelar5">Desfazer</button>
+                        </div>
 
-                    <!--Endereõs Titulos-->
+                        <div class="usuarios">
+                            <label for="participanteGustavo">Altere o sexto participante</label>
+                            <input id="participanteGustavo"  placeholder="Digite um nome">
+                            <button id="participanteConfirmar6">Confirmar</button>
+                            <button id="participanteCancelar6">Desfazer</button>
+                        </div>
 
+                    </div>
 
-                    <!--Endereços emails-->
-                    <label for="endereço1">Altere o primeiro endereço</label>
-                    <input id="endereço1" placeholder="endereço..."> 
-                    <button id="contatosConfirmar1">Confirmar</button>
-                    <button id="contatosDesfazer1">Desfazer</button>
-
-                    <label for="endereço2">Altere o segundo endereço</label>
-                    <input id="endereço2" placeholder="endereço2..."> 
-                    <button id="contatosConfirmar2">Confirmar</button>
-                    <button id="contatosDesfazer2">Desfazer</button>
-
-                    <label for="endereço3">Altere o terceiro endereço</label>
-                    <input id="endereço3" placeholder="endereço3..."> 
-                    <button id="contatosConfirmar3">Confirmar</button>
-                    <button id="contatosDesfazer3">Desfazer</button>
-
-                    <label for="endereço4">Altere o quarto endereço</label>
-                    <input id="endereço4" placeholder="endereço4..."> 
-                    <button id="contatosConfirmar4">Confirmar</button>
-                    <button id="contatosDesfazer4">Desfazer</button>
-                </div>
-            </form>
+            </form>      
         </div>
 
         <main>
@@ -137,20 +154,6 @@
                 </ul>
             </div>
         </section>
-        <a name="contatos"></a>
-        <div class="contatos">
-            <h1 class="titulo-principal">Contatos e endereço</h1>
-            <ul class="lista-contatos">
-                <li class="titulo-contatos">América do Norte</a></li>
-                <li class="email-contatos"><a href="mailto:press@tesla.com">Press@tesla.com</a></li>
-                <li class="titulo-contatos">Europa e Oriente Médio</li>
-                <li class="email-contatos"><a href="mailto:press@tesla.com">EUPress@tesla.com</a></li>
-                <li class="titulo-contatos">Austrália e ásia</li>
-                <li class="email-contatos"><a href="mailto:press@tesla.com">APACPress@tesla.com</a></li>
-                <li class="titulo-contatos">China</li>
-                <li class="email-contatos"><a href="mailto:press@tesla.com">China-Press@tesla.com</a></li>
-            </ul>
-        </div>
     </main>
     <a name="participantes"></a>
     <div class="caixa-participantes">
@@ -169,7 +172,7 @@
             <li>
                 <a href="https://www.linkedin.com/in/liu-brian-252a97211/" target="_blank"><img class="Liu"
                         src="Imagens/Liu.jpeg" alt="Rosto do Liu"></a>
-                <p>Liu Brian</p>
+                <p class="nome-liu">Liu Brian</p>
                 <br>
                 <p><a href="mailto:liubriamaviladeoliveira@gmail.com" target="_blank">Email</a></p>
                 <p><a href="https://github.com/liu-brian0" target="_blank">Git Hub</a></p>
@@ -180,7 +183,7 @@
             <li>
                 <a href="https://www.linkedin.com/mwlite/in/laura-q-881808201" target="_blank"><img class="Laura"
                         src="Imagens/Laura.jpeg" alt="Rosto da Laura"></a>
-                <p>Laura Quaglioto</p>
+                <p class="nome-laura">Laura Quaglioto</p>
                 <br>
                 <p><a href="mailto:lauraquagliotoc@gmail.com" target="_blank">Email</a></p>
                 <p><a href="https://github.com/lauqc" target="_blank">Git Hub</a></p>
@@ -191,7 +194,7 @@
             <li>
                 <a href="https://www.linkedin.com/in/bruno-yathan-diedrich-kehrwald/" target="_blank"><img class="Bruno"
                         src="Imagens/Bruno.jpeg" alt="Rosto do Liu"></a>
-                <p>Bruno Yathan</p>
+                <p class="nome-bruno">Bruno Yathan</p>
                 <br>
                 <p><a href="mailto:brunodiedrich@gmail.com" target="_blank">Email</a></p>
                 <p><a href="https://github.com/BrunoYathan" target="_blank">Git Hub</a></p>
@@ -203,7 +206,7 @@
             <li>
                 <a href="https://www.linkedin.com/in/eric-esteves-94b191214/" target="_blank"><img class="Eric"
                         src="Imagens/Eric.jpeg" alt="Rosto do Liu"></a>
-                <p>Eric Esteves</p>
+                <p class="nome-eric">Eric Esteves</p>
                 <br>
                 <p><a href="mailto:eric.esteves159159@gmail.com" target="_blank">Email</a></p>
                 <p><a href="ainda falta esse aqui!" target="_blank">Git Hub</a></p>
@@ -214,7 +217,7 @@
             <li>
                 <a href="https://www.linkedin.com/in/gustavo-schmitt-" target="_blank"><img class="Gustavo"
                         src="Imagens/Gustavo.jpeg" alt="Rosto do Liu"></a>
-                <p>Gustavo Schmitt</p>
+                <p class="nome-gustavo">Gustavo Schmitt</p>
                 <br>
                 <p><a href="mailto:gustavo.schmitt1998@gmail.com" target="_blank">Email</a></p>
                 <p><a href="https://github.com/GustavoSchmitt" target="_blank">Git Hub</a></p>
@@ -223,22 +226,16 @@
         </ul>
         </nav>
     </div>
-
-    <footer class="rodapé">
-        <img src="Imagens/logo-tesla-footer.png" class="logo-tesla" alt="Logo da TESLA">
-    </footer>
 </body>
 
-<<<<<<< HEAD
         <footer class="rodapé">
             <img src="Imagens/logo-tesla-footer.png" class="logo-tesla" alt="Logo da TESLA">
         </footer>
 
-        <script src="contatos.js"></script>
+        <!-- <script src="contatos.js"></script> -->
         <script src="resumo.js"></script>
         <script src="lista.js"></script>
         <script src="modelos.js" defer></script>
+        <script src="participantes.js"></script>
     </body>
-=======
->>>>>>> c1b562ed7906918ebedb64306db5d14c74eb0e8f
 </html>

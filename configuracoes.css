@@ -13,11 +13,10 @@
     color:black;
     background-color: gray;
     display: inline-block;
-    max-width: 500px;
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-sizing: border-box;
+    
 }
 .painel-configuracoes, input{
     padding:10px;
@@ -51,3 +50,13 @@
 }
 
 /*painel de configuração dos contatos/endereço*/
+
+.participantes-titulo{
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.usuarios{
+    padding-bottom: 20px;
+}
