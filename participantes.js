@@ -19,6 +19,8 @@ var botaodeCancelar = document.querySelector("#participanteCancelar1");
 botaodeCancelar.addEventListener("click",function(event){ 
         localStorage.setItem("ValorSalvo1", "Vitória Dambros");
 })
+//------------------------------------------------------------------------
+
 
 //---Participante 2 - Liu---
 var botaoParticipante2 = document.querySelector("#participanteConfirmar2"); 
@@ -41,6 +43,8 @@ var botaodeCancelar2 = document.querySelector("#participanteCancelar2");
 botaodeCancelar2.addEventListener("click",function(event){ 
         localStorage.setItem("ValorSalvo2", "Liu Brian");
 })
+//------------------------------------------------------------------------
+
 
 //---Participante 3 laura---
 var botaoParticipante3 = document.querySelector("#participanteConfirmar3"); 
@@ -56,13 +60,15 @@ botaoParticipante3.addEventListener("click",function(){
 }});
  
 var nomeArmazenado3 = localStorage.getItem("ValorSalvo3"); 
-var nomeUsuario3 = document.querySelector(".nome-laura"); 
+var nomeUsuario3 = document.querySelector(".nome-Laura"); 
 nomeUsuario3.innerHTML = nomeArmazenado3;  
     
 var botaodeCancelar3 = document.querySelector("#participanteCancelar3"); 
 botaodeCancelar3.addEventListener("click",function(){ 
         localStorage.setItem("ValorSalvo3", "Laura Quaglioto");
 });
+//------------------------------------------------------------------------
+
 
 //---Participante 4 Bruno---
 
@@ -79,13 +85,15 @@ botaoParticipante4.addEventListener("click",function(){
 }});
  
 var nomeArmazenado4 = localStorage.getItem("ValorSalvo4"); 
-var nomeUsuario4 = document.querySelector(".nome-bruno"); 
+var nomeUsuario4 = document.querySelector(".nome-Bruno"); 
 nomeUsuario4.innerHTML = nomeArmazenado4;  
     
 var botaodeCancelar4 = document.querySelector("#participanteCancelar4"); 
 botaodeCancelar4.addEventListener("click",function(){ 
         localStorage.setItem("ValorSalvo4", "Bruno Yathan");
 });
+//------------------------------------------------------------------------
+
 
 //---Participante 5 Eric---
 
@@ -102,13 +110,15 @@ botaoParticipante5.addEventListener("click",function(){
 }});
  
 var nomeArmazenado5 = localStorage.getItem("ValorSalvo5"); 
-var nomeUsuario5 = document.querySelector(".nome-eric"); 
+var nomeUsuario5 = document.querySelector(".nome-Eric"); 
 nomeUsuario5.innerHTML = nomeArmazenado5;  
     
 var botaodeCancelar5 = document.querySelector("#participanteCancelar5"); 
 botaodeCancelar5.addEventListener("click",function(){ 
         localStorage.setItem("ValorSalvo5", "Eric Esteves");
 });
+//------------------------------------------------------------------------
+
 
 //---Participante 6 Gustavo---
 
@@ -125,7 +135,7 @@ botaoParticipante6.addEventListener("click",function(){
 }});
  
 var nomeArmazenado6 = localStorage.getItem("ValorSalvo6"); 
-var nomeUsuario6 = document.querySelector(".nome-gustavo"); 
+var nomeUsuario6 = document.querySelector(".nome-Gustavo"); 
 nomeUsuario6.innerHTML = nomeArmazenado6;  
     
 var botaodeCancelar6 = document.querySelector("#participanteCancelar6"); 
