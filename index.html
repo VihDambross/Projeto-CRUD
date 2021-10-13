@@ -13,46 +13,48 @@
         <header class="header">
                 <img src=".//Imagens/img.logo.png" class="logo-tesla-home">
             <nav>
-                <ul class="menu-home">
-                    <li id="sobre" class="menu-itens"><a id="link1" href="#home">Sobre</a></li>
-                    <li id="objetivo" class="menu-itens"><a id="link2" href="">Objetivos</a></li>
-                    <li id="contato" class="menu-itens"><a id="link3" >Contatos</a></li>
-                    <li id="participantes" class="menu-itens"><a id="link4">Participantes</a></li>
-                    <li class="menu-itens"><a>Configurações</a></li>
-                </ul>
-            </nav>
+                    <div class="container-menu">
+                    <ul class="menu-home">
+                        <li id="sobre" class="menu-itens"><a id="link1" href="#home">Sobre</a></li>
+                        <li id="objetivo" class="menu-itens"><a id="link2" href="">Objetivos</a></li>
+                        <li id="contato" class="menu-itens"><a id="link3" >Contatos</a></li>
+                        <li id="participantes" class="menu-itens"><a id="link4">Participantes</a></li> 
+                        <button  onclick="mostra('container-formulario')"  class="botao-menu">Configurações</button>
+                    </ul> 
+                    </div>
+            </nav>   
         </header>
 
         <!--Painel de Configurações-->
-        <div class="configuracoes-container">
+        <div id="container-formulario" class="configuracoes-container">
             <form class="painel-configuracoes">
                 
                 <!--MENU-->
                 <h1 class="tituloMenu">MENU</h1>
                 <div class="menu-configurar">
                     <label for="input-menu1">Botão sobre</label>
-                    <input class ="inputEstilo" id="input-menu1" type="text" placeholder="Digite algo">
+                    <input class ="inputEstilo" id="input-menu1" type="text" placeholder="Escolha um nome">
                     <button class="botaoEstilo" id="botao-confirmar">Confirmar</button>
                     <button id="botao-cancela">Desfazer</button>
                 </div>
 
                 <div class="menu-configurar">
                     <label for="input-menu2">Botão objetivo</label>
-                    <input class ="inputEstilo" id="input-menu2" type="text" placeholder="Ecolha um objetivo">
+                    <input class ="inputEstilo" id="input-menu2" type="text" placeholder="Escolha um nome">
                     <button class="botaoEstilo" id="botao-confirmar2">Confirmar</button>
                     <button id="botao-cancela2">Desfazer</button>
                 </div>
 
                 <div class="menu-configurar">
                     <label for="input-menu3">Botão contatos</label>
-                    <input class ="inputEstilo" id="input-menu3" type="text" placeholder="Altere o contato">
+                    <input class ="inputEstilo" id="input-menu3" type="text" placeholder="Escolha um nome">
                     <button class="botaoEstilo" id="botao-confirmar3">Confirmar</button>
                     <button id="botao-cancela3">Desfazer</button>
                 </div>
 
                 <div class="menu-configurar">
                     <label for="input-menu4">Botão participantes</label>
-                    <input class ="inputEstilo" id="input-menu4" type="text" placeholder="botao participantes">
+                    <input class ="inputEstilo" id="input-menu4" type="text" placeholder="Escolha um nome">
                     <button class="botaoEstilo" id="botao-confirmar4">Confirmar</button>
                     <button id="botao-cancela4">Desfazer</button>
                 </div>
@@ -243,6 +245,7 @@
         </footer>
 
         <!-- <script src="contatos.js"></script> -->
+        <script src="botaoConfig.js"></script>
         <script src="resumo.js"></script>
         <script src="menu.js"></script>
         <script src="modelos.js" defer></script>

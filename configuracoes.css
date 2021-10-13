@@ -88,3 +88,27 @@ border-color: black;
     padding-bottom: 20px;
     padding-top: 10px;
 }
+
+/*----Botão de configuração----*/
+
+.container-menu{
+    
+    display: inline-block;
+    text-align: center;
+}
+.botao-menu{
+    background-color: #064f32;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: white;
+    padding:20px;
+}
+ 
+.botao-menu:hover{
+    background-color: #078854;
+    border-color: black;
+}
+
+#container-formulario{
+    display: none;
+}
