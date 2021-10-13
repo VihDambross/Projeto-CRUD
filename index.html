@@ -23,13 +23,12 @@
             </nav>
         </header>
 
-        <!--Configurações-->
+        <!--Painel de Configurações-->
         <div class="configuracoes-container">
             <form class="painel-configuracoes">
                 
-                <!--MENU PRINCIPAL-->
+                <!--MENU-->
                 <h1 class="tituloMenu">MENU</h1>
-                
                 <div class="menu-configurar">
                     <label for="input-menu1">Botão sobre</label>
                     <input class ="inputEstilo" id="input-menu1" type="text" placeholder="Digite algo">
@@ -59,28 +58,32 @@
                 </div>
                 <hr>
                 
-                <div class="painelDoResumo">
-                    <!--TITULO/SOBRE-->
+                <!--SOBRE-->
+                <div class="resumo-container">
+                    <h1 class="sobre-titulo">SOBRE</h1>
                     <div class="painel-resumo">
-                        <h1 class="TituloSobre">SOBRE:</h1>
-                        <label for="inputSobre">Altere o titulo do sobre</label>
-                        <input class ="inputEstilo" id="inputSobre" type="text" placeholder="Digite um titulo">
-                        <button class="botaoEstilo" id="SobreConfirmar">Confirmar</button>
-                        <button id="SobreDesfazer">Desfazer</button>
+                        
+                        
+                        <label for="input-sobre">Altere o titulo do sobre</label>
+                        <input class ="inputEstilo" id="input-sobre" type="text" placeholder="Digite um titulo">
+                        <button class="botaoEstilo" id="sobre-confirmar">Confirmar</button>
+                        <button id="sobre-desfazer">Desfazer</button>
                     </div>
                    
                     <!--RESUMO-->
                     <div class="painel-resumo">
-                        <label for="inputResumo">Altere o resumo</label>
-                        <input class ="inputEstilo" id="inputResumo" placeholder="Digite um resumo">
-                        <button class="botaoEstilo" id="resumoConfirmar">Confirmar</button>
-                        <button id="resumoDesfazer">Desfazer</button>
-                        </div>
+                        <label for="input-resumo">Altere o resumo</label>
+                        <input class ="inputEstilo" id="input-resumo" placeholder="Digite um resumo">
+                        <button class="botaoEstilo" id="resumo-confirmar">Confirmar</button>
+                        <button id="resumo-desfazer">Desfazer</button>
                     </div>
+                </div>
+
                     <hr>
                     <!--PARTICIPANTES-->
                     <div class="painel-participantes"> 
                         <h1 class="participantes-titulo">Participantes</h1>
+                       
                         <!--vitória-->
                         <div class="usuarios">
                             <label for="participanteVih">Altere o primeiro participante</label>
@@ -241,7 +244,7 @@
 
         <!-- <script src="contatos.js"></script> -->
         <script src="resumo.js"></script>
-        <script src="lista.js"></script>
+        <script src="menu.js"></script>
         <script src="modelos.js" defer></script>
         <script src="participantes.js"></script>
     </body>

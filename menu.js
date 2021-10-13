@@ -1,7 +1,7 @@
 //----Script do botao Sobre----
 var botaoconfirmar1 = document.querySelector("#botao-confirmar"); 
 botaoconfirmar1.addEventListener("click",function(){ 
-    var input1 = document.querySelector("#input-lista1");
+    var input1 = document.querySelector("#input-menu1");
     if(confirm("Você deseja confirmar as alterações no menu sobre?")){
         if(input1.value == ""){
             alert("Não é permitido confirmar um campo vazio.");
@@ -21,13 +21,13 @@ var botaotCancela1 = document.querySelector("#botao-cancela");
 botaotCancela1.addEventListener("click",function(event){ 
         localStorage.setItem("valorCampo", "sobre");
 })
-
+//-------------------------------------------------------------------
 
 
 //----Scrip do botao Objetivos----
 var botaoconfirmar2 = document.querySelector("#botao-confirmar2"); 
 botaoconfirmar2.addEventListener("click",function(){ 
-    var input2 = document.querySelector("#input-lista2");
+    var input2 = document.querySelector("#input-menu2");
     if(confirm("Você deseja confirmar as alterações no menu objetivos?")){
         if(input2.value == ""){
             alert("Não é permitido confirmar um campo vazio.");
@@ -47,12 +47,14 @@ var botaotCancela2 = document.querySelector("#botao-cancela2");
 botaotCancela2.addEventListener("click",function(event){ 
         localStorage.setItem("valorCampo2", "objetivos");
 })
+//-------------------------------------------------------------------
+
 
 //----Scrip do botao Contatos----
 
 var botaoconfirmar3 = document.querySelector("#botao-confirmar3"); 
 botaoconfirmar3.addEventListener("click",function(){ 
-    var input3 = document.querySelector("#input-lista3");
+    var input3 = document.querySelector("#input-menu3");
     if(confirm("Você deseja confirmar as alterações no menu contatos?")){
         if(input3.value == ""){
             alert("Não é permitido confirmar um campo vazio.");
@@ -72,12 +74,14 @@ var botaotCancela3 = document.querySelector("#botao-cancela2");
 botaotCancela3.addEventListener("click",function(event){ 
         localStorage.setItem("valorCampo3", "contatos");
 })
+//-------------------------------------------------------------------
+
 
 //----Scrip do botao Participantes----
 
 var botaoconfirmar4 = document.querySelector("#botao-confirmar4"); 
 botaoconfirmar4.addEventListener("click",function(){ 
-    var input4 = document.querySelector("#input-lista4");
+    var input4 = document.querySelector("#input-menu4");
     if(confirm("Você deseja confirmar as alterações no menu participantes?")){
         if(input4.value == ""){
             alert("Não é permitido confirmar um campo vazio.");
@@ -97,4 +101,4 @@ var botaotCancela4 = document.querySelector("#botao-cancela4");
 botaotCancela4.addEventListener("click",function(event){ 
         localStorage.setItem("valorCampo4", "participantes");
 })
-
+//-------------------------------------------------------------------

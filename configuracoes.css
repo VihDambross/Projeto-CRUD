@@ -24,11 +24,11 @@
     text-align: center;
 }
 
-.menu-configurar{   /*Div que engloba cada input*/
+.menu-configurar{   /*Div que engloba cada input do menu*/
     margin-bottom: 20px; 
 }
 
-.menu-configurar , label{ /*Pega o label de cada input*/
+.menu-configurar , label{ /*Pega o label de cada input do menu*/
     display: block;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -39,17 +39,17 @@
     border: 2px solid gray;
     border-radius: 12px;
 }
+
 .painel-configuracoes input:hover{
 border-color: black;
 }
-
 
 .painel-configuracoes  button{ /*Pega os botoes do formulario*/
     padding:10px;
     border: 2px solid gray;
     border-radius: 12px;
-    
 } 
+
 .botaoEstilo{
     background-color: #064f32;
     color:white;
@@ -58,19 +58,23 @@ border-color: black;
     border-color: black;
 }
 
-
 /*----painel de configurações do Sobre/Resumo----*/
 
-.painelDoResumo{
+.painel-resumo{ /*----Div que engloba todos os inputs do resumo----*/
     padding-top: 10px;   
+    padding-bottom: 10px;
 }
-.painelDoResumo  h1{
+
+.painel-resumo label{ /*div que engloba o resumo e o sobre*/
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+
+.resumo-container  .sobre-titulo{ /*----Pega o titulo do resumo----*/
     text-align: center;
-    padding-bottom: 20px;
     font-size: 25px;
-}
-.painel-resumo{
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 /*----Painel dos participantes----*/
